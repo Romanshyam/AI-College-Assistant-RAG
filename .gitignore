@@ -1,0 +1,25 @@
+# Environment
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# ChromaDB
+vector_db/
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# Streamlit
+.streamlit/

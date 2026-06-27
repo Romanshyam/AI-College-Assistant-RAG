@@ -1,0 +1,181 @@
+/* ==========================================
+   AI College Assistant - Version 2.0
+   ========================================== */
+
+/* Main Background */
+.stApp {
+    background-color: #0F172A;
+    color: #F8FAFC;
+}
+
+/* Main Container */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    max-width: 1100px;
+}
+
+/* ------------------------------------------
+   Sidebar
+------------------------------------------ */
+
+section[data-testid="stSidebar"] {
+    background-color: #111827;
+    border-right: 1px solid #374151;
+}
+
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* ------------------------------------------
+   Title
+------------------------------------------ */
+
+h1 {
+    color: #60A5FA !important;
+    text-align: center;
+    font-size: 52px !important;
+    font-weight: 800 !important;
+    margin-bottom: 0.3rem;
+}
+
+/* Subtitle */
+
+.stCaption {
+    text-align: center;
+    color: #CBD5E1;
+    font-size: 18px;
+}
+
+/* ------------------------------------------
+   Horizontal Line
+------------------------------------------ */
+
+hr {
+    border: none;
+    height: 1px;
+    background: #334155;
+}
+
+/* ------------------------------------------
+   Buttons
+------------------------------------------ */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    background: #2563EB;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.stButton > button:hover {
+    background: #1D4ED8;
+}
+
+/* ------------------------------------------
+   Chat Input
+------------------------------------------ */
+
+.stChatInput {
+    border-radius: 15px;
+}
+
+/* ------------------------------------------
+   Metric Cards
+------------------------------------------ */
+
+[data-testid="metric-container"] {
+    background: #1E293B;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid #334155;
+}
+
+[data-testid="metric-container"] label {
+    color: #CBD5E1;
+}
+
+[data-testid="metric-container"] div {
+    color: white;
+}
+
+/* ------------------------------------------
+   Success Boxes
+------------------------------------------ */
+
+.stSuccess {
+    border-radius: 12px;
+}
+
+/* ------------------------------------------
+   Info Box
+------------------------------------------ */
+
+.stInfo {
+    border-radius: 15px;
+}
+
+/* ------------------------------------------
+   Spinner
+------------------------------------------ */
+
+.stSpinner {
+    color: #60A5FA;
+}
+
+/* ------------------------------------------
+   Chat Messages
+------------------------------------------ */
+
+[data-testid="stChatMessage"] {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* ------------------------------------------
+   Text
+------------------------------------------ */
+
+p,
+li,
+label {
+    color: #F8FAFC;
+}
+
+/* ------------------------------------------
+   Links
+------------------------------------------ */
+
+a {
+    color: #60A5FA;
+}
+
+a:hover {
+    color: #93C5FD;
+}
+
+/* ------------------------------------------
+   Scroll Bar
+------------------------------------------ */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64748B;
+}
