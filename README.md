@@ -1,5 +1,15 @@
 # 🎓 AI College Assistant (RAG)
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+
+![LangChain](https://img.shields.io/badge/LangChain-RAG-green)
+
+![Gemini](https://img.shields.io/badge/Google-Gemini-orange)
+
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 An AI-powered College Assistant built using **LangChain**, **Google Gemini**, **Hugging Face Embeddings**, **ChromaDB**, and **Streamlit**.
 
 This project uses **Retrieval-Augmented Generation (RAG)** to answer questions from uploaded college documents such as academic calendars, regulations, and syllabi.
